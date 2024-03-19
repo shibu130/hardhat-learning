@@ -93,6 +93,10 @@ first get the subscription at https://vrf.chain.link/
 
 the contract -> https://remix.ethereum.org/#url=https://docs.chain.link/samples/VRF/VRFD20.sol&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.24+commit.e11b9ed9.js
 
+find the contract in remix -> https://remix.ethereum.org/#url=https://docs.chain.link/samples/VRF/VRFD20.sol
+
+consumer-->0x93406D3Add641a91F199a7Cfbdd38d77CAF7dEB8
+
 
 
 
