@@ -1,0 +1,69 @@
+yarn init
+
+yarn add hardhat
+
+yarn hardhat compile
+
+yarn hardhat run scripts/deploy.js 
+
+------------------------------
+
+
+dev
+--- 
+
+import hardhat
+
+-> contract factor
+-> deploy
+
+
+
+
+.deployed -> .waitForDeployment()
+---
+
+
+hardhat-networks
+---------------
+
+{
+	defaultNetwork : "hardhat"
+}
+
+or 
+
+{
+
+  networks:{
+
+		rinkeby : "some-rpc-url"    // get the rpc url from alchemy
+	    }
+
+}
+
+
+
+run 
+
+yarn hardhat run scripts/deploy.js  --network hardhat
+
+yarn hardhat run scripts/deploy.js --network sepolia
+
+yarn hardhat console --network localhost ---------> allows one to open and do stuff in console whatever is present in the project is brought to the console
+
+
+
+setup
+------
+
+template with empty config
+
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+
+
+
+
+
+
+
