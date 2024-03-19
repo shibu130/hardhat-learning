@@ -86,7 +86,7 @@ require("dotenv").config()
 
 chain link 
 ---------
-random ness value
+randomness value
 
 
 first get the subscription at https://vrf.chain.link/
