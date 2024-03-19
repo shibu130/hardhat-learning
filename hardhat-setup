@@ -84,4 +84,17 @@ require("hardhat-contract-sizer")
 require("dotenv").config()
 
 
+chain link 
+---------
+random ness value
+
+
+first get the subscription at https://vrf.chain.link/
+
+
+
+
+
+
+
 
